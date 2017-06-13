@@ -19,7 +19,7 @@ public class Main extends Application {
 			BorderPane root = (BorderPane)loader.load();
 			LibrettoController controller = loader.getController();
 			
-			
+			//commento
 			LibrettoModel libretto = new LibrettoModel();
 			controller.setLibretto(libretto);
 			Scene scene = new Scene(root);
